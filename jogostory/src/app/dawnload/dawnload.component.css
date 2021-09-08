@@ -1,0 +1,102 @@
+.caixa {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+}
+
+.destaques {
+  display:grid;
+  grid-gap: .2rem;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+  height: calc(100vh - 50px);
+  margin: 33px;
+}
+
+
+
+.destaques__principal {
+  background: url('../../assets/img/whatsapp.png') center / cover no-repeat;
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  border-radius: 10px 10px;
+  margin-top: -2cm;
+
+}
+
+.destaques__secundario:nth-child(2) {
+  grid-column: 2 / 5;
+  grid-row: 1 / 2;
+  margin-left: 10cm !important;
+
+
+}
+.destaques__secundario:nth-child(3) {
+  grid-column: 4 / 4;
+  grid-row: 2 / 2;
+}
+h1,h4{
+  color: white;
+}
+h3{
+  color:green;
+}
+#circle{
+  color: rgb(165, 245, 6)
+  !important
+}
+h5{
+  color:yellow
+  !important;
+}
+.texto{
+  margin-top: 20cm
+  !important;
+}
+#botao {
+  background-color: green;
+  color: white;
+  display: block;
+  flex: 1;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 0.5em;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+#botao-wrapper {
+  display: flex;
+}
+img{
+  border: 1px solid;
+  border-radius:40px 40px;
+  width: 330px !important;
+  margin: 25px;
+
+}
+#destaque{
+  grid-column: 3 / 4;
+  grid-row: 3/ 3;
+ width: 150px !important;
+}
+#carousel{
+  width: 150px !important;
+border-radius:20px;
+border:1px solid #ccc;
+}
+.conteudo2 {
+  grid-area: conteudo;
+  padding: 0 2rem;
+}
+h6 {
+  font-size: 17px;  color: white ;
+  box-shadow: 10px 10px 10px
+  !important;
+ border-radius: 30px;
+ margin: 20px;
+text-align: center;
+}
+.conteiner {
+  margin: 30px !important;
+}

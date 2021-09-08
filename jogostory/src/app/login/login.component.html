@@ -1,0 +1,31 @@
+
+
+
+
+<div class="conteudo">
+<br>
+<br>
+<br>
+<div class="container">
+  <div id="login">
+    <h1 id="login__titulo">Login</h1>
+      <div id="caixas">
+        <label  for="usuario" id="caixas__label">Usuário</label>
+        <input [(ngModel)]="usuario.nome" id="usuario" type="text" class="validate" id="caixas__input">
+      </div>
+
+
+      <div id="caixas">
+        <label  for="senha" id="caixas__label">Senha</label>
+        <input [(ngModel)]="usuario.senha" id="senha" type="password" class="validate" id="caixas__input">
+      </div>
+
+      <div id="botao-wrapper">
+        <button class="btn waves-effect waves-light " id="botao"
+        type="submit" name="action" (click)="fazerLogin()">
+        Login
+      </button>
+    </div>
+  </div>
+</div>
+</div>

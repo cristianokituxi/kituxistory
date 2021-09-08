@@ -1,0 +1,31 @@
+
+<br>
+<header class="cabecalho">
+  <div>
+  <div class="menu">
+      <ul class="menu__lista" *ngIf="mostrarMenu">
+          <li class="menu__item">
+              <a class="menu__link " routerLink="./inicio">
+                  <i class="fas fa-home"></i>
+                  Início
+              </a>
+              <a class="menu__link" routerLink="./aplicacoes/">
+                  <i class="fas fa-mobile-alt"></i>
+                  Aplicativos</a>
+              <a class="menu__link" routerLink="./jogos/">
+                  <i class="fas fa-gamepad"></i>
+                  Jogos
+              </a>
+               <a class="menu__link" style="margin-left: 22cm;" routerLink="./login/">
+                        <i class="fas fa-sign-in-alt" routerLink="./login"></i>
+                        Login
+               </a>
+          </li>
+      </ul>
+  </div>
+</div>
+</header>
+    <main>
+    <router-outlet></router-outlet>
+</main>
+
